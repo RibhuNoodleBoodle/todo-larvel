@@ -1,4 +1,4 @@
-Project Name
+Larvel Todo Project
 =============
 
 Description
