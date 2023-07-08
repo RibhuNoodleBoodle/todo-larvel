@@ -1,13 +1,12 @@
 version: '3'
-
 services:
-  mysql:
-    image: mysql:latest
+  db:
+    image: mysql:8.0
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: secret
-      MYSQL_DATABASE: todo_db
+      MYSQL_DATABASE: registration_login
     ports:
-      - '3306:3306'
+      - 3306:3306
     volumes:
-      - ./mysql-data:/var/lib/mysql
+      - ./data:/var/lib/mysql
