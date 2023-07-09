@@ -15,7 +15,7 @@ Features
 Installation
 ------------
 1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
-2. Navigate to the project directory: `cd project-name`
+2. Navigate to the project directory: `cd todo-larvel`
 3. Install project dependencies: `composer install`
 4. Set up the environment variables: Copy the `.env.example` file to `.env` and modify the necessary configuration values, such as database credentials.
 5. Start the Docker containers: `./vendor/bin/sail up`
